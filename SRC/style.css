@@ -112,3 +112,8 @@ sup {
   font-weight: lighter;
   color: rgb(223, 198, 57);
 }
+
+.tag {
+  font-size: 13px;
+  padding-top: 10px;
+}
