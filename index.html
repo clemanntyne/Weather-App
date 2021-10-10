@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheCodesPlusWeek2</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/34ec9a5d8c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-weather">
+        <h1 id="city-name">Santa Rosa, CA, USA</h1>
+        <button class="current-location">
+              Current Location
+          </button >
+        <div class="city-input">
+          <form> 
+            <input type="submit" class="btn btn-info search" id="search"/>
+            <input
+              class="city-enter"
+              type="text"
+              placeholder="Enter City Name"
+              autocomplete="off"
+              id="search-text-input"
+            />   
+                    
+          </form>
+         
+        </div>
+        <div class="date-long" id="date-long">
+          Saturday, September 11
+          </div>
+          <div class="clock" id="clock">
+          11:51 am
+        </div>
+        <div class="weather-pic">
+          <i class="far fa-sun"></i>
+        </div>
+        <div class="display-temp">
+          <span class="the-temp">
+          93
+        </span>
+          <span class="units">
+            <!--<a href="#" id="farh-link">°F</a> | --> <!--<a href="#"</a>--> <a id="cels-link">°C</a>
+          </span>
+        </div>
+        <div class="container-day">
+          <div class="row">
+            <div class="col-2">
+              <div class="sun">Sun</div>
+            </div>
+            <div class="col">Mon</div>
+            <div class="col">Tues</div>
+            <div class="col">Wed</div>
+            <div class="col">Thur</div>
+            <div class="col fri">Fri</div>
+            <div class="col">
+              <div class="sat">Sat</div>
+            </div>
+          </div>
+        </div>
+        <div class="container-high">
+          <div class="row">
+            <div class="col-2">
+              <div class="sun">95°</div>
+            </div>
+            <div class="col">90°</div>
+            <div class="col">91°</div>
+            <div class="col">85°</div>
+            <div class="col">83°</div>
+            <div class="col fri">80°</div>
+            <div class="col">
+              <div class="sat">79°</div>
+            </div>
+          </div>
+          <div class="container-low">
+          <div class="row">
+            <div class="col-2">
+              <div class="sun">32°</div>
+            </div>
+            <div class="col">38°</div>
+            <div class="col">41°</div>
+            <div class="col">32°</div>
+            <div class="col">40°</div>
+            <div class="col fri">41°</div>
+            <div class="col">
+              <div class="sat">32°</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js">
+    </script>
+  </body>
+</html>
